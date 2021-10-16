@@ -1,0 +1,12 @@
+.container-dropdown-body {
+  transition: height 0.25s ease;
+  overflow-y: hidden;
+}
+
+.dropdown-container-hidden {
+  height: 0px;
+}
+
+.dropdown-container-showed {
+
+}

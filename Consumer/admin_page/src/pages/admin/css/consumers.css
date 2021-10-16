@@ -1,0 +1,100 @@
+.consumer-create-form {
+    background: white;
+    border-radius: 5px;
+    min-height: 50px;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 5%);
+    padding: 16px;
+    max-width: 640px;
+}
+
+.consumer-info {
+    padding: 0 16px;
+}
+
+.consumer-info .admin-settings-row,
+.consumer-create-form .admin-settings-row {
+    margin: 0;
+}
+
+.consumer-info .admin-settings-row {
+    padding: 16px 0px;
+    border-top: 1px solid #EEEEEE;
+}
+
+
+.consumer-info {
+    min-height: 10px;
+}
+
+.add-provider-to-consumer {
+    display: flex;
+    align-items: center;
+}
+
+
+.add-provider-to-consumer p {
+    margin-bottom: 0;
+}
+
+.add-provider-to-consumer select {
+    height: 30px;
+    min-width: 100px;
+}
+
+.admin-setting-input-row-multiline.hash form.add-provider-to-consumer .button {
+    margin-top: 0;
+    margin-left: 8px;
+}
+
+.admin-settings-row.consumer-data p {
+    font-size: 12px;
+    word-break: break-all;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+
+.consumer-provider-rule {
+    padding-left: 16px;
+    border-left: 1px solid #EEEEEE;
+}
+
+.admin-settings-row .consumer-provider-rule p {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.admin-settings-row .consumer-provider-rule .input-v2-row {
+    margin-bottom: 12px;
+}
+
+.setting-header {
+    font-size: 18px;
+}
+
+.consumer-info-rules-list {
+    padding-left: 16px;
+    border-left: 1px solid #EEEEEE;
+}
+
+.admin-settings-row .consumer-provider-rule p.rule-status {
+    margin-bottom: 8px;
+}
+
+.rules-button {
+    display: flex;
+    margin: 0 -4px;
+}
+
+.admin-setting-input-row-multiline .rules-button div.button {
+    margin: 0 4px;
+    margin-top: 0px;
+}
+
+.provider-rule-block {
+    margin-bottom: 16px;
+}
+
+.provider-rule-block:last-child {
+    margin-bottom: 0px;
+}

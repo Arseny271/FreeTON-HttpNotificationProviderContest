@@ -1,0 +1,70 @@
+.page-user-sidebar-parent {
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+.page-user-sidebar {
+  width: 190px;
+  height: 100%;
+  background-color: #20262a;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  transition: left 0.2s ease;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  position: fixed;
+}
+
+.page-user-sidebar.sidebar-fake {
+  flex-shrink: 0;
+  position: static;
+  visibility: hidden;
+  transition: width 0.2s ease;
+  background-color: transparent;
+}
+
+.page-user-sidebar-logo {
+  width: 100%;
+  height: 70px;
+  background-color: var(--main-primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-user-sidebar-logo h2 {
+  font-family: Montserrat;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+@media (max-width: 959px) {
+  .page-user-sidebar.sidebar-fake {
+    width: 0;
+  }
+
+  .page-user-sidebar.sidebar-close {
+    left: -190px;
+  }
+
+  .page-user-sidebar-parent {
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+    transition: background-color 0.2s 0s ease, left 0s 0s ease;
+  }
+
+  .page-user-sidebar-parent.sidebar-close {
+    background-color: rgba(0,0,0,0);
+    left: -100%;
+    transition: background-color 0.2s 0s ease, left 0s 0.2s ease;
+  }
+}

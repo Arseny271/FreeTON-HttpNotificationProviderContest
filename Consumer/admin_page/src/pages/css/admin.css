@@ -1,0 +1,44 @@
+.page-admin {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  background-color: #F0F0F0;
+}
+
+.page-admin-body {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.page-admin-sidebar-buttons {
+  padding: 10px 0;
+  overflow-y: auto;
+}
+
+.page-admin-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-admin-block {
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 50px;
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 5%);
+  padding: 20px;
+  max-width: 960px;
+}
+
+@media (max-width: 374px) {
+  .page-admin-page {
+    padding: 10px;
+  }
+}

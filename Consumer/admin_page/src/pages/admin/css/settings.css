@@ -1,0 +1,41 @@
+.admin-settings-row {
+  margin-bottom: 30px;
+}
+
+.admin-settings-row p {
+  margin-bottom: 6px;
+}
+
+.admin-setting-input-row {
+  display: flex;
+}
+
+
+.admin-settings-row p {
+  margin-bottom: 10px;
+}
+
+.admin-settings-row .input-v2-row {
+  max-width: 280px;
+}
+
+.admin-settings-row .button {
+  margin-left: 8px;
+  max-width: 100px;
+}
+
+
+.admin-setting-input-row-multiline .input-v2-row {
+  max-width: 200px;
+  margin-bottom: 8px;
+}
+.admin-setting-input-row-multiline.hash .input-v2-row {
+  max-width: 550px;
+}
+.admin-setting-input-row-multiline .button {
+  margin: 0;
+  margin-top: 12px;
+}
+.admin-setting-input-row-multiline.hash .button {
+  margin-top: 8px;
+}

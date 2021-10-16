@@ -1,0 +1,53 @@
+.modal-window-background {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.15s ease-out 0s, top 0s ease-out 0.15s;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.modal-window-background.window-active {
+  top: 0px;
+  opacity: 1;
+  transition: opacity 0.15s ease-out 0s;
+}
+
+.modal-window-background.window-active .modal-window {
+  transform: scale(1);
+  transition-timing-function: ease-out;
+}
+
+.modal-window {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 90%;
+  max-height: 90%;
+  background: white;
+  border-radius: 7px;
+  border: 1px solid rgb(206, 212, 218);
+  transform: scale(0);
+  transition: 0.15s;
+  transition-timing-function: ease-in;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.popup-header-close-button {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  cursor: pointer;
+  background-image: url("../../icons/close.svg");
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;
+}

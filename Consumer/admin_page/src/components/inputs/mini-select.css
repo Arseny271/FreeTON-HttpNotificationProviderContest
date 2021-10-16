@@ -1,0 +1,71 @@
+.mini-select {
+  position: relative;
+  min-width: 85px;
+}
+
+.mini-select p {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  color: #888888;
+  cursor: pointer;
+}
+
+.mini-select-value p {
+  position: relative;
+  padding-right: 12px;
+}
+
+.mini-select-value p::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 6px;
+  height: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("../../icons/polygon.svg");
+  right: 2px;
+  top: 50%;
+  margin-top: -2px;
+}
+
+.mini-select-options-wrapper {
+  position: absolute;
+  right: -30px;
+  top: 0px;
+  padding: 20px;
+  z-index: 1;
+  display: none;
+}
+
+.mini-select-options {
+  min-width: 75px;
+  padding: 6px 0px;
+  background: white;
+  color: var(--main-primary-color);
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.mini-select:hover .mini-select-options-wrapper {
+  display: block;
+}
+
+
+.mini-select-options p {
+  padding: 3px 12px;
+}
+
+.mini-select-options p:hover {
+  background-color: #EFEFEF;
+}

@@ -1,0 +1,57 @@
+.button-sidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-sidebar-body {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  cursor: pointer;
+  height: 50px;
+  text-decoration: none !important;
+  user-select: none;
+  font-family: Montserrat;
+}
+
+.button-sidebar .icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  margin-left: 10px;
+  -webkit-mask-size: 100%;
+  transform: scale(0.5);
+
+  -webkit-mask-rendering: crisp-edges;
+}
+
+.button-sidebar-body p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+
+.button-sidebar.button-sidebar-active .button-sidebar-body p {
+  color: var(--main-primary-color);
+}
+
+.button-sidebar.button-sidebar-inactive .button-sidebar-body p {
+  color: white;
+}
+
+.button-sidebar.button-sidebar-active .button-sidebar-icon {
+  fill: #6DB3F2;
+}
+
+.button-sidebar-subbuttons {
+  padding-left: 5px;
+  overflow-y: hidden;
+  transition: max-height 0.25s ease-out;
+  max-height: 550px;
+}
+
+.button-sidebar.button-sidebar-inactive .button-sidebar-subbuttons {
+  max-height: 0px;
+}

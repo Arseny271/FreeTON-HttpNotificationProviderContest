@@ -1,0 +1,6 @@
+{
+    "host": "0.0.0.0",
+    "receiverPort": 8000,
+    "adminPanelPort": 8001,
+    "receiverEndpoint": "/events"
+}

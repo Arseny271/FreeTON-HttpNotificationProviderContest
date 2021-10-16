@@ -1,0 +1,21 @@
+{
+  "name": "ton-notify-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "js-nacl": "^1.3.2",
+    "mongodb": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  }
+}

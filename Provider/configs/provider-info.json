@@ -1,0 +1,8 @@
+{
+    "id": "arsen12",
+    "name": "Arsenicum12 Notification Provider", 
+    "version": "1.0.0",
+    "description": "Specially designed for FreeTON Http Notification Provider Contest",
+    "address": "0:4fedc8d8a2ae251fe7d634936c061f1702994e18f0b10c7d8214df2cd24b56ab",
+    "icon": "/static/icon.png"
+}

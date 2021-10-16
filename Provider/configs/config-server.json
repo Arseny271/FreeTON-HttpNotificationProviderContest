@@ -1,0 +1,15 @@
+{
+    "api_server": {
+        "host": "0.0.0.0",
+        "port": 8000
+    },
+
+    "notifications": {
+        "max_concurrency": 512,
+        "first_attempt_timeout": 0,
+        "next_attempts_timeout": 0,
+
+        "retry_time_base": 1.4562093,
+        "max_attempts": 30
+    }
+}

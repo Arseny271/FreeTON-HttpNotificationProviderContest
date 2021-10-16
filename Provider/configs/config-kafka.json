@@ -1,0 +1,19 @@
+{
+    "client": {
+        "clientId": "arsen12",
+        "brokers": ["notification.services.tonlabs.io:29092"],
+        "connectionTimeout": 5000,
+
+        "ssl": false,
+        "sasl": {
+            "mechanism": "scram-sha-512",
+            "username": "arsen12",
+            "password": "*** password ***"
+        }
+    },
+
+    "consumer": {
+        "groupId": "new-group",
+        "topic": "notifications-3"
+    }
+}

@@ -1,0 +1,160 @@
+.provider-info-dropdown {
+  margin-bottom: 20px;
+  max-width: 960px;
+  background: white;
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 5%);
+  border-radius: 5px;
+}
+
+.provider-info-header {
+  display: flex;
+  align-items: center;
+  min-height: 55px;
+  padding: 0px 16px;
+  cursor: pointer;
+}
+
+.provider-info-header p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--main-primary-color);
+}
+
+.provider-info-header-icons {
+  margin-left: auto;
+  display: flex;
+}
+
+.provider-info-header-icons .icon {
+  width: 40px;
+  height: 55px;
+  cursor: pointer;
+  transition: -webkit-transform .25s ease-out;
+  transition: transform .25s ease-out;
+  transition: transform .25s ease-out,-webkit-transform .25s ease-out;
+}
+
+.icon-r0 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.icon-r180 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.provider-info {
+  padding: 0 16px;
+}
+
+.provider-info-info {
+  display: flex;
+  padding: 16px 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.provider-info-info img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+}
+
+.provider-info-block {
+  flex-grow: 1;
+  user-select: text;
+  margin: 0px 16px;
+}
+
+.provider-info-block p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.provider-info-block p.desc {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.provider-info-block .addr p {
+  font-size: 12px;
+  word-break: break-all;
+}
+
+.provider-info-block .addr {
+  margin-top: 10px;
+}
+
+.provider-info-qrcode {
+  width: 110px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.provider-info-qrcode p {
+  font-family: Roboto;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 6px;
+  color: black;
+}
+
+.provider-settings {
+  font-family: Roboto;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.provider-settings p {
+  margin-bottom: 6px;
+}
+
+.provider-settings .input-v2-row {
+  max-width: 320px;
+}
+
+.provider-settings .button {
+  margin-left: 8px;
+  max-width: 100px;
+}
+
+.provider-setting-input-row {
+  display: flex;
+}
+
+.page-admin-provider-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-admin-provider-list .add-provider {
+  margin-top: 20px;
+  max-width: 320px;
+  height: 55px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--main-primary-color);
+}
+
+.provider-create-form {
+  background: white;
+  border-radius: 5px;
+  min-height: 50px;
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 5%);
+  padding: 0 16px;
+  max-width: 420px;
+}
+
+.provider-create-form  .provider-info-info {
+  border-top: none;
+}
+
+.provider-settings-row {
+  margin: 10px 0;
+}

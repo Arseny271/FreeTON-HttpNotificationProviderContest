@@ -1,0 +1,24 @@
+.message-block {
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    padding: 16px;
+    user-select: text;
+}
+
+.message-block p {
+    word-break: break-all;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.message-block p.message-json {
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.message-block hr {
+    border: none;
+    border-bottom: 1px solid #EEEEEE;
+}

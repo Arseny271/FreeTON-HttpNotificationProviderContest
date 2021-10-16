@@ -1,0 +1,22 @@
+.page-stat{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-stat h1 {
+  font-family: Roboto;
+  margin: 1em;
+}
+
+.page-chart-block {
+  background-color: white;
+  padding: 16px;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.page-chart {
+  width: 100%;
+  height: 300px;
+}
